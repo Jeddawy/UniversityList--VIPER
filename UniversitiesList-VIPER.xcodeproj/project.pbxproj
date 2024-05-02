@@ -10,6 +10,9 @@
 		1A235B31E68B92B7251E624C /* Pods_UniversitiesList_VIPERTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5000AEF2DE8398223A7B13 /* Pods_UniversitiesList_VIPERTests.framework */; };
 		2101727F2BE39CE5008CFBB6 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2101727E2BE39CE5008CFBB6 /* UIViewController+Extension.swift */; };
 		210172812BE39D0A008CFBB6 /* UIView+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210172802BE39D0A008CFBB6 /* UIView+Loader.swift */; };
+		210172832BE3BB85008CFBB6 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210172822BE3BB85008CFBB6 /* RealmManager.swift */; };
+		210172852BE3BDAA008CFBB6 /* UniversitiesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210172842BE3BDAA008CFBB6 /* UniversitiesManager.swift */; };
+		210172872BE3C330008CFBB6 /* RealmManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210172862BE3C330008CFBB6 /* RealmManagerProtocol.swift */; };
 		21698E812BE2F72200AFAEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698E802BE2F72200AFAEED /* AppDelegate.swift */; };
 		21698E852BE2F72200AFAEED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698E842BE2F72200AFAEED /* ViewController.swift */; };
 		21698E882BE2F72200AFAEED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21698E862BE2F72200AFAEED /* Main.storyboard */; };
@@ -63,6 +66,9 @@
 		1F07E272DAA884621BC882E8 /* Pods-UniversitiesList-VIPERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversitiesList-VIPERTests.debug.xcconfig"; path = "Target Support Files/Pods-UniversitiesList-VIPERTests/Pods-UniversitiesList-VIPERTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2101727E2BE39CE5008CFBB6 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		210172802BE39D0A008CFBB6 /* UIView+Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Loader.swift"; sourceTree = "<group>"; };
+		210172822BE3BB85008CFBB6 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		210172842BE3BDAA008CFBB6 /* UniversitiesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesManager.swift; sourceTree = "<group>"; };
+		210172862BE3C330008CFBB6 /* RealmManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManagerProtocol.swift; sourceTree = "<group>"; };
 		21698E7D2BE2F72200AFAEED /* UniversitiesList-VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UniversitiesList-VIPER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21698E802BE2F72200AFAEED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21698E842BE2F72200AFAEED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -250,6 +256,9 @@
 		21698EB42BE2F7E700AFAEED /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				210172822BE3BB85008CFBB6 /* RealmManager.swift */,
+				210172862BE3C330008CFBB6 /* RealmManagerProtocol.swift */,
+				210172842BE3BDAA008CFBB6 /* UniversitiesManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -547,8 +556,10 @@
 				21698ED42BE302D800AFAEED /* UniversityDetailsProtocols.swift in Sources */,
 				21698EE32BE3064800AFAEED /* APIManager.swift in Sources */,
 				21698EE02BE3047000AFAEED /* UniversityTableViewCell.swift in Sources */,
+				210172872BE3C330008CFBB6 /* RealmManagerProtocol.swift in Sources */,
 				21698ED02BE302CA00AFAEED /* UniversityDetailsEntity.swift in Sources */,
 				21698EC42BE301D500AFAEED /* UniversityListRouter.swift in Sources */,
+				210172852BE3BDAA008CFBB6 /* UniversitiesManager.swift in Sources */,
 				21698EC22BE301CE00AFAEED /* UniversityListEntity.swift in Sources */,
 				21698E852BE2F72200AFAEED /* ViewController.swift in Sources */,
 				21698EC92BE301EE00AFAEED /* UniversityDetailsViewController.swift in Sources */,
@@ -557,6 +568,7 @@
 				21698ED22BE302D100AFAEED /* UniversityDetailsRouter.swift in Sources */,
 				21698EDA2BE303CE00AFAEED /* APIRouter.swift in Sources */,
 				21698EBE2BE301B700AFAEED /* UniversityListPresenter.swift in Sources */,
+				210172832BE3BB85008CFBB6 /* RealmManager.swift in Sources */,
 				21698EBB2BE301A600AFAEED /* UniversityListViewController.swift in Sources */,
 				210172812BE39D0A008CFBB6 /* UIView+Loader.swift in Sources */,
 				21698EE52BE306B600AFAEED /* BaseResponse.swift in Sources */,

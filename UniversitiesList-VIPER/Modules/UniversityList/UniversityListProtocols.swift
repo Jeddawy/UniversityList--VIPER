@@ -20,7 +20,7 @@ protocol UniversityListPresenterProtocol {
     
     func didTapCell(at index: Int)
     func getUnivesitiesCount()-> Int
-    func getUniversity(at index: Int) -> UniversityResponse
+    func getUniversity(at index: Int) -> UniversityResponse?
     
 }
 
@@ -28,6 +28,7 @@ protocol UniversityListInteractorInputProtocol: AnyObject {
     
     var presenter: UniversityListInteractorOutputProtocol? { get set }
     func getUniversityList()
+    func getArticlesFromRealm() -> [UniversityResponse]
   
     /* Presenter -> Interactor */
 }

@@ -23,10 +23,12 @@ class UniversityListPresenter{
 
 
 extension UniversityListPresenter: UniversityListPresenterProtocol{
+    
 
     func didTapCell(at index: Int) {
-        let item = self.getUniversity(at: index)
-        router?.navigateToUniversityDetails(model: item)
+        if let item = self.getUniversity(at: index){
+            router?.navigateToUniversityDetails(model: item)
+        }
     }
     
     func getUniversities() {
@@ -42,11 +44,11 @@ extension UniversityListPresenter: UniversityListPresenterProtocol{
         return self.unversities.count
     }
     
-    func getUniversity(at index: Int) -> UniversityResponse {
+    func getUniversity(at index: Int) -> UniversityResponse? {
         if index >= 0 && index < self.getUnivesitiesCount(){
             return self.unversities[index]
         }
-        return UniversityResponse()
+        return nil
     }
     
 }
@@ -60,7 +62,12 @@ extension UniversityListPresenter: UniversityListInteractorOutputProtocol{
     
     func universitiesFetchedUnSuccessfully(title: String, errorMessage: String, statusCode: Int) {
         self.view?.hideLoading()
-        self.view?.showErrorMessage(title: title, message: errorMessage, statusCode: statusCode)
+        if let unversities = interactor?.getArticlesFromRealm(), !unversities.isEmpty{
+            self.unversities = unversities
+            self.view?.reloadList()
+        }else{
+            self.view?.showErrorMessage(title: title, message: errorMessage, statusCode: statusCode)
+        }
     }
     
     

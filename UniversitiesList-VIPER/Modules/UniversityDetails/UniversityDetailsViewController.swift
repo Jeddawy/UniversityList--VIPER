@@ -35,7 +35,7 @@ extension UniversityDetailsViewController: UniversityDetailsViewProtocol{
         universityStateLabel.text = model.state
         universityLabel.text = model.name
         universityCountryCodeLabel.text = model.countyCode
-        webPageLabel.text = model.webPages?.first
+        webPageLabel.text = model.webPages?.first ?? ""
     }
     
 }
