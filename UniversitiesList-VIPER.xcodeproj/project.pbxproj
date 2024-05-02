@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A235B31E68B92B7251E624C /* Pods_UniversitiesList_VIPERTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5000AEF2DE8398223A7B13 /* Pods_UniversitiesList_VIPERTests.framework */; };
+		2101727F2BE39CE5008CFBB6 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2101727E2BE39CE5008CFBB6 /* UIViewController+Extension.swift */; };
+		210172812BE39D0A008CFBB6 /* UIView+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210172802BE39D0A008CFBB6 /* UIView+Loader.swift */; };
 		21698E812BE2F72200AFAEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698E802BE2F72200AFAEED /* AppDelegate.swift */; };
-		21698E832BE2F72200AFAEED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698E822BE2F72200AFAEED /* SceneDelegate.swift */; };
 		21698E852BE2F72200AFAEED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698E842BE2F72200AFAEED /* ViewController.swift */; };
 		21698E882BE2F72200AFAEED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21698E862BE2F72200AFAEED /* Main.storyboard */; };
 		21698E8A2BE2F72400AFAEED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21698E892BE2F72400AFAEED /* Assets.xcassets */; };
@@ -16,6 +18,28 @@
 		21698E982BE2F72500AFAEED /* UniversitiesList_VIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698E972BE2F72500AFAEED /* UniversitiesList_VIPERTests.swift */; };
 		21698EA22BE2F72500AFAEED /* UniversitiesList_VIPERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698EA12BE2F72500AFAEED /* UniversitiesList_VIPERUITests.swift */; };
 		21698EA42BE2F72500AFAEED /* UniversitiesList_VIPERUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698EA32BE2F72500AFAEED /* UniversitiesList_VIPERUITestsLaunchTests.swift */; };
+		21698EB82BE2F95D00AFAEED /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698EB72BE2F95D00AFAEED /* URLs.swift */; };
+		21698EBB2BE301A600AFAEED /* UniversityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698EB92BE301A600AFAEED /* UniversityListViewController.swift */; };
+		21698EBC2BE301A600AFAEED /* UniversityListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21698EBA2BE301A600AFAEED /* UniversityListViewController.xib */; };
+		21698EBE2BE301B700AFAEED /* UniversityListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698EBD2BE301B700AFAEED /* UniversityListPresenter.swift */; };
+		21698EC02BE301C200AFAEED /* UniversityListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698EBF2BE301C200AFAEED /* UniversityListInteractor.swift */; };
+		21698EC22BE301CE00AFAEED /* UniversityListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698EC12BE301CE00AFAEED /* UniversityListEntity.swift */; };
+		21698EC42BE301D500AFAEED /* UniversityListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698EC32BE301D500AFAEED /* UniversityListRouter.swift */; };
+		21698EC62BE301DE00AFAEED /* UniversityListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698EC52BE301DE00AFAEED /* UniversityListProtocols.swift */; };
+		21698EC92BE301EE00AFAEED /* UniversityDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698EC72BE301EE00AFAEED /* UniversityDetailsViewController.swift */; };
+		21698ECA2BE301EE00AFAEED /* UniversityDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21698EC82BE301EE00AFAEED /* UniversityDetailsViewController.xib */; };
+		21698ED02BE302CA00AFAEED /* UniversityDetailsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698ECF2BE302CA00AFAEED /* UniversityDetailsEntity.swift */; };
+		21698ED22BE302D100AFAEED /* UniversityDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698ED12BE302D100AFAEED /* UniversityDetailsRouter.swift */; };
+		21698ED42BE302D800AFAEED /* UniversityDetailsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698ED32BE302D800AFAEED /* UniversityDetailsProtocols.swift */; };
+		21698ED62BE302ED00AFAEED /* UniversityDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698ED52BE302ED00AFAEED /* UniversityDetailsPresenter.swift */; };
+		21698ED82BE302F800AFAEED /* UniversityDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698ED72BE302F800AFAEED /* UniversityDetailsInteractor.swift */; };
+		21698EDA2BE303CE00AFAEED /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698ED92BE303CE00AFAEED /* APIRouter.swift */; };
+		21698EE02BE3047000AFAEED /* UniversityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698EDE2BE3047000AFAEED /* UniversityTableViewCell.swift */; };
+		21698EE12BE3047000AFAEED /* UniversityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21698EDF2BE3047000AFAEED /* UniversityTableViewCell.xib */; };
+		21698EE32BE3064800AFAEED /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698EE22BE3064800AFAEED /* APIManager.swift */; };
+		21698EE52BE306B600AFAEED /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698EE42BE306B600AFAEED /* BaseResponse.swift */; };
+		5024DAD7AFB33A02060DD62A /* Pods_UniversitiesList_VIPER_UniversitiesList_VIPERUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE248C55ECCF8AE1A141575C /* Pods_UniversitiesList_VIPER_UniversitiesList_VIPERUITests.framework */; };
+		9F7154EF430D0BE0DFF84E53 /* Pods_UniversitiesList_VIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588B6FDB4A0A441DDD1FB630 /* Pods_UniversitiesList_VIPER.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +60,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F07E272DAA884621BC882E8 /* Pods-UniversitiesList-VIPERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversitiesList-VIPERTests.debug.xcconfig"; path = "Target Support Files/Pods-UniversitiesList-VIPERTests/Pods-UniversitiesList-VIPERTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2101727E2BE39CE5008CFBB6 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		210172802BE39D0A008CFBB6 /* UIView+Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Loader.swift"; sourceTree = "<group>"; };
 		21698E7D2BE2F72200AFAEED /* UniversitiesList-VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UniversitiesList-VIPER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21698E802BE2F72200AFAEED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		21698E822BE2F72200AFAEED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		21698E842BE2F72200AFAEED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		21698E872BE2F72200AFAEED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21698E892BE2F72400AFAEED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +75,34 @@
 		21698E9D2BE2F72500AFAEED /* UniversitiesList-VIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UniversitiesList-VIPERUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21698EA12BE2F72500AFAEED /* UniversitiesList_VIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesList_VIPERUITests.swift; sourceTree = "<group>"; };
 		21698EA32BE2F72500AFAEED /* UniversitiesList_VIPERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesList_VIPERUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		21698EB72BE2F95D00AFAEED /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		21698EB92BE301A600AFAEED /* UniversityListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListViewController.swift; sourceTree = "<group>"; };
+		21698EBA2BE301A600AFAEED /* UniversityListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UniversityListViewController.xib; sourceTree = "<group>"; };
+		21698EBD2BE301B700AFAEED /* UniversityListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListPresenter.swift; sourceTree = "<group>"; };
+		21698EBF2BE301C200AFAEED /* UniversityListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListInteractor.swift; sourceTree = "<group>"; };
+		21698EC12BE301CE00AFAEED /* UniversityListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListEntity.swift; sourceTree = "<group>"; };
+		21698EC32BE301D500AFAEED /* UniversityListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListRouter.swift; sourceTree = "<group>"; };
+		21698EC52BE301DE00AFAEED /* UniversityListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListProtocols.swift; sourceTree = "<group>"; };
+		21698EC72BE301EE00AFAEED /* UniversityDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailsViewController.swift; sourceTree = "<group>"; };
+		21698EC82BE301EE00AFAEED /* UniversityDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UniversityDetailsViewController.xib; sourceTree = "<group>"; };
+		21698ECF2BE302CA00AFAEED /* UniversityDetailsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailsEntity.swift; sourceTree = "<group>"; };
+		21698ED12BE302D100AFAEED /* UniversityDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailsRouter.swift; sourceTree = "<group>"; };
+		21698ED32BE302D800AFAEED /* UniversityDetailsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailsProtocols.swift; sourceTree = "<group>"; };
+		21698ED52BE302ED00AFAEED /* UniversityDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailsPresenter.swift; sourceTree = "<group>"; };
+		21698ED72BE302F800AFAEED /* UniversityDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailsInteractor.swift; sourceTree = "<group>"; };
+		21698ED92BE303CE00AFAEED /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		21698EDE2BE3047000AFAEED /* UniversityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityTableViewCell.swift; sourceTree = "<group>"; };
+		21698EDF2BE3047000AFAEED /* UniversityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UniversityTableViewCell.xib; sourceTree = "<group>"; };
+		21698EE22BE3064800AFAEED /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		21698EE42BE306B600AFAEED /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		4F5000AEF2DE8398223A7B13 /* Pods_UniversitiesList_VIPERTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversitiesList_VIPERTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		588B6FDB4A0A441DDD1FB630 /* Pods_UniversitiesList_VIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversitiesList_VIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C7493C5B18B1A2BE2C6B224 /* Pods-UniversitiesList-VIPERTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversitiesList-VIPERTests.release.xcconfig"; path = "Target Support Files/Pods-UniversitiesList-VIPERTests/Pods-UniversitiesList-VIPERTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C75CFDAF4852B320C587638 /* Pods-UniversitiesList-VIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversitiesList-VIPER.release.xcconfig"; path = "Target Support Files/Pods-UniversitiesList-VIPER/Pods-UniversitiesList-VIPER.release.xcconfig"; sourceTree = "<group>"; };
+		CE248C55ECCF8AE1A141575C /* Pods_UniversitiesList_VIPER_UniversitiesList_VIPERUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversitiesList_VIPER_UniversitiesList_VIPERUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D905317D64BD98AB91DD0BF6 /* Pods-UniversitiesList-VIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversitiesList-VIPER.debug.xcconfig"; path = "Target Support Files/Pods-UniversitiesList-VIPER/Pods-UniversitiesList-VIPER.debug.xcconfig"; sourceTree = "<group>"; };
+		DD4D6336F254317D81E362E6 /* Pods-UniversitiesList-VIPER-UniversitiesList-VIPERUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversitiesList-VIPER-UniversitiesList-VIPERUITests.debug.xcconfig"; path = "Target Support Files/Pods-UniversitiesList-VIPER-UniversitiesList-VIPERUITests/Pods-UniversitiesList-VIPER-UniversitiesList-VIPERUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBBCED30A259DD5CC51525E8 /* Pods-UniversitiesList-VIPER-UniversitiesList-VIPERUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversitiesList-VIPER-UniversitiesList-VIPERUITests.release.xcconfig"; path = "Target Support Files/Pods-UniversitiesList-VIPER-UniversitiesList-VIPERUITests/Pods-UniversitiesList-VIPER-UniversitiesList-VIPERUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F7154EF430D0BE0DFF84E53 /* Pods_UniversitiesList_VIPER.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A235B31E68B92B7251E624C /* Pods_UniversitiesList_VIPERTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +126,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5024DAD7AFB33A02060DD62A /* Pods_UniversitiesList_VIPER_UniversitiesList_VIPERUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2101727D2BE39CA4008CFBB6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2101727E2BE39CE5008CFBB6 /* UIViewController+Extension.swift */,
+				210172802BE39D0A008CFBB6 /* UIView+Loader.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		21698E742BE2F72200AFAEED = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +149,8 @@
 				21698E962BE2F72500AFAEED /* UniversitiesList-VIPERTests */,
 				21698EA02BE2F72500AFAEED /* UniversitiesList-VIPERUITests */,
 				21698E7E2BE2F72200AFAEED /* Products */,
+				5A02460A54DC9DE4342409E1 /* Pods */,
+				943F94B102F067CD9B388644 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +167,12 @@
 		21698E7F2BE2F72200AFAEED /* UniversitiesList-VIPER */ = {
 			isa = PBXGroup;
 			children = (
-				21698E802BE2F72200AFAEED /* AppDelegate.swift */,
-				21698E822BE2F72200AFAEED /* SceneDelegate.swift */,
+				21698EB52BE2F80100AFAEED /* Shared */,
+				21698EB62BE2F94A00AFAEED /* Utilities */,
+				2101727D2BE39CA4008CFBB6 /* Extensions */,
+				21698EB32BE2F74500AFAEED /* NetworkLayer */,
+				21698EB42BE2F7E700AFAEED /* Services */,
+				21698EB02BE2F72D00AFAEED /* Modules */,
 				21698E842BE2F72200AFAEED /* ViewController.swift */,
 				21698E862BE2F72200AFAEED /* Main.storyboard */,
 				21698E892BE2F72400AFAEED /* Assets.xcassets */,
@@ -127,6 +199,109 @@
 			path = "UniversitiesList-VIPERUITests";
 			sourceTree = "<group>";
 		};
+		21698EB02BE2F72D00AFAEED /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				21698EB12BE2F73200AFAEED /* UniversityList */,
+				21698EB22BE2F73C00AFAEED /* UniversityDetails */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		21698EB12BE2F73200AFAEED /* UniversityList */ = {
+			isa = PBXGroup;
+			children = (
+				21698EDB2BE3044800AFAEED /* Cell */,
+				21698EB92BE301A600AFAEED /* UniversityListViewController.swift */,
+				21698EBD2BE301B700AFAEED /* UniversityListPresenter.swift */,
+				21698EBF2BE301C200AFAEED /* UniversityListInteractor.swift */,
+				21698EC12BE301CE00AFAEED /* UniversityListEntity.swift */,
+				21698EC32BE301D500AFAEED /* UniversityListRouter.swift */,
+				21698EC52BE301DE00AFAEED /* UniversityListProtocols.swift */,
+				21698EBA2BE301A600AFAEED /* UniversityListViewController.xib */,
+			);
+			path = UniversityList;
+			sourceTree = "<group>";
+		};
+		21698EB22BE2F73C00AFAEED /* UniversityDetails */ = {
+			isa = PBXGroup;
+			children = (
+				21698EC72BE301EE00AFAEED /* UniversityDetailsViewController.swift */,
+				21698ED52BE302ED00AFAEED /* UniversityDetailsPresenter.swift */,
+				21698ED72BE302F800AFAEED /* UniversityDetailsInteractor.swift */,
+				21698ECF2BE302CA00AFAEED /* UniversityDetailsEntity.swift */,
+				21698ED12BE302D100AFAEED /* UniversityDetailsRouter.swift */,
+				21698ED32BE302D800AFAEED /* UniversityDetailsProtocols.swift */,
+				21698EC82BE301EE00AFAEED /* UniversityDetailsViewController.xib */,
+			);
+			path = UniversityDetails;
+			sourceTree = "<group>";
+		};
+		21698EB32BE2F74500AFAEED /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				21698ED92BE303CE00AFAEED /* APIRouter.swift */,
+				21698EE22BE3064800AFAEED /* APIManager.swift */,
+				21698EE42BE306B600AFAEED /* BaseResponse.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		21698EB42BE2F7E700AFAEED /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		21698EB52BE2F80100AFAEED /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				21698E802BE2F72200AFAEED /* AppDelegate.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		21698EB62BE2F94A00AFAEED /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				21698EB72BE2F95D00AFAEED /* URLs.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		21698EDB2BE3044800AFAEED /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				21698EDE2BE3047000AFAEED /* UniversityTableViewCell.swift */,
+				21698EDF2BE3047000AFAEED /* UniversityTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5A02460A54DC9DE4342409E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D905317D64BD98AB91DD0BF6 /* Pods-UniversitiesList-VIPER.debug.xcconfig */,
+				8C75CFDAF4852B320C587638 /* Pods-UniversitiesList-VIPER.release.xcconfig */,
+				DD4D6336F254317D81E362E6 /* Pods-UniversitiesList-VIPER-UniversitiesList-VIPERUITests.debug.xcconfig */,
+				EBBCED30A259DD5CC51525E8 /* Pods-UniversitiesList-VIPER-UniversitiesList-VIPERUITests.release.xcconfig */,
+				1F07E272DAA884621BC882E8 /* Pods-UniversitiesList-VIPERTests.debug.xcconfig */,
+				7C7493C5B18B1A2BE2C6B224 /* Pods-UniversitiesList-VIPERTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		943F94B102F067CD9B388644 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				588B6FDB4A0A441DDD1FB630 /* Pods_UniversitiesList_VIPER.framework */,
+				CE248C55ECCF8AE1A141575C /* Pods_UniversitiesList_VIPER_UniversitiesList_VIPERUITests.framework */,
+				4F5000AEF2DE8398223A7B13 /* Pods_UniversitiesList_VIPERTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +309,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21698EA72BE2F72500AFAEED /* Build configuration list for PBXNativeTarget "UniversitiesList-VIPER" */;
 			buildPhases = (
+				D58A9955F2C79C8E633023FA /* [CP] Check Pods Manifest.lock */,
 				21698E792BE2F72200AFAEED /* Sources */,
 				21698E7A2BE2F72200AFAEED /* Frameworks */,
 				21698E7B2BE2F72200AFAEED /* Resources */,
+				939489FCEA28B592DCCF57D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +328,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21698EAA2BE2F72500AFAEED /* Build configuration list for PBXNativeTarget "UniversitiesList-VIPERTests" */;
 			buildPhases = (
+				17E103EBBD7E2C6F0AEC3F80 /* [CP] Check Pods Manifest.lock */,
 				21698E8F2BE2F72500AFAEED /* Sources */,
 				21698E902BE2F72500AFAEED /* Frameworks */,
 				21698E912BE2F72500AFAEED /* Resources */,
@@ -169,9 +347,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21698EAD2BE2F72500AFAEED /* Build configuration list for PBXNativeTarget "UniversitiesList-VIPERUITests" */;
 			buildPhases = (
+				9B57B14D1600B7AD74676CA5 /* [CP] Check Pods Manifest.lock */,
 				21698E992BE2F72500AFAEED /* Sources */,
 				21698E9A2BE2F72500AFAEED /* Frameworks */,
 				21698E9B2BE2F72500AFAEED /* Resources */,
+				542572C66B52FA5CA026A35E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +411,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21698EBC2BE301A600AFAEED /* UniversityListViewController.xib in Resources */,
+				21698EE12BE3047000AFAEED /* UniversityTableViewCell.xib in Resources */,
 				21698E8D2BE2F72400AFAEED /* LaunchScreen.storyboard in Resources */,
+				21698ECA2BE301EE00AFAEED /* UniversityDetailsViewController.xib in Resources */,
 				21698E8A2BE2F72400AFAEED /* Assets.xcassets in Resources */,
 				21698E882BE2F72200AFAEED /* Main.storyboard in Resources */,
 			);
@@ -253,14 +436,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17E103EBBD7E2C6F0AEC3F80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniversitiesList-VIPERTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		542572C66B52FA5CA026A35E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniversitiesList-VIPER-UniversitiesList-VIPERUITests/Pods-UniversitiesList-VIPER-UniversitiesList-VIPERUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniversitiesList-VIPER-UniversitiesList-VIPERUITests/Pods-UniversitiesList-VIPER-UniversitiesList-VIPERUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UniversitiesList-VIPER-UniversitiesList-VIPERUITests/Pods-UniversitiesList-VIPER-UniversitiesList-VIPERUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		939489FCEA28B592DCCF57D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniversitiesList-VIPER/Pods-UniversitiesList-VIPER-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniversitiesList-VIPER/Pods-UniversitiesList-VIPER-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UniversitiesList-VIPER/Pods-UniversitiesList-VIPER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B57B14D1600B7AD74676CA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniversitiesList-VIPER-UniversitiesList-VIPERUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D58A9955F2C79C8E633023FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniversitiesList-VIPER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		21698E792BE2F72200AFAEED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21698ED42BE302D800AFAEED /* UniversityDetailsProtocols.swift in Sources */,
+				21698EE32BE3064800AFAEED /* APIManager.swift in Sources */,
+				21698EE02BE3047000AFAEED /* UniversityTableViewCell.swift in Sources */,
+				21698ED02BE302CA00AFAEED /* UniversityDetailsEntity.swift in Sources */,
+				21698EC42BE301D500AFAEED /* UniversityListRouter.swift in Sources */,
+				21698EC22BE301CE00AFAEED /* UniversityListEntity.swift in Sources */,
 				21698E852BE2F72200AFAEED /* ViewController.swift in Sources */,
+				21698EC92BE301EE00AFAEED /* UniversityDetailsViewController.swift in Sources */,
+				21698EC62BE301DE00AFAEED /* UniversityListProtocols.swift in Sources */,
 				21698E812BE2F72200AFAEED /* AppDelegate.swift in Sources */,
-				21698E832BE2F72200AFAEED /* SceneDelegate.swift in Sources */,
+				21698ED22BE302D100AFAEED /* UniversityDetailsRouter.swift in Sources */,
+				21698EDA2BE303CE00AFAEED /* APIRouter.swift in Sources */,
+				21698EBE2BE301B700AFAEED /* UniversityListPresenter.swift in Sources */,
+				21698EBB2BE301A600AFAEED /* UniversityListViewController.swift in Sources */,
+				210172812BE39D0A008CFBB6 /* UIView+Loader.swift in Sources */,
+				21698EE52BE306B600AFAEED /* BaseResponse.swift in Sources */,
+				21698EB82BE2F95D00AFAEED /* URLs.swift in Sources */,
+				21698ED82BE302F800AFAEED /* UniversityDetailsInteractor.swift in Sources */,
+				2101727F2BE39CE5008CFBB6 /* UIViewController+Extension.swift in Sources */,
+				21698ED62BE302ED00AFAEED /* UniversityDetailsPresenter.swift in Sources */,
+				21698EC02BE301C200AFAEED /* UniversityListInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +657,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -416,7 +720,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -437,6 +741,7 @@
 		};
 		21698EA82BE2F72500AFAEED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D905317D64BD98AB91DD0BF6 /* Pods-UniversitiesList-VIPER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,6 +770,7 @@
 		};
 		21698EA92BE2F72500AFAEED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C75CFDAF4852B320C587638 /* Pods-UniversitiesList-VIPER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -493,6 +799,7 @@
 		};
 		21698EAB2BE2F72500AFAEED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F07E272DAA884621BC882E8 /* Pods-UniversitiesList-VIPERTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +820,7 @@
 		};
 		21698EAC2BE2F72500AFAEED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C7493C5B18B1A2BE2C6B224 /* Pods-UniversitiesList-VIPERTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +841,7 @@
 		};
 		21698EAE2BE2F72500AFAEED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD4D6336F254317D81E362E6 /* Pods-UniversitiesList-VIPER-UniversitiesList-VIPERUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +860,7 @@
 		};
 		21698EAF2BE2F72500AFAEED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBBCED30A259DD5CC51525E8 /* Pods-UniversitiesList-VIPER-UniversitiesList-VIPERUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
