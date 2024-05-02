@@ -18,12 +18,12 @@ class UniversityDetailsRouter{
         self.viewController = viewController
     }
     
-    static func createModule(model: UniversityResponse) -> UIViewController {
+    static func createModule(model: UniversityResponse, delegate: RefreshUniversityListDelegate?) -> UIViewController {
         // Change to get view from storyboard if not using progammatic UI
         let view = UniversityDetailsViewController()
         let interactor = UniversityDetailsInteractor()
         let router = UniversityDetailsRouter(with: view)
-        let presenter = UniversityDetailsPresenter(view: view, interactor: interactor, router: router, unversity: model)
+        let presenter = UniversityDetailsPresenter(view: view, interactor: interactor, router: router, unversity: model,delegate: delegate)
         
         view.setPresenter(presenter: presenter)
         interactor.setPresenter(presenter: presenter)

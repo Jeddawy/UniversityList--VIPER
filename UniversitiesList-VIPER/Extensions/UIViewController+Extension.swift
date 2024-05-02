@@ -17,10 +17,9 @@ extension UIViewController{
         self.present(alert, animated: true, completion: nil)
     }
     
-    func showTwoButtonsPopup(title: String, message: String, okTitle: String = "OK", cancelTitle:String, cancelHandler: ((UIAlertAction)->Void)? = nil, okHandler: ((UIAlertAction)->Void)? = nil) {
-        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: okTitle, style: .default, handler: okHandler))
-        alert.addAction(UIAlertAction(title: cancelTitle, style: .cancel, handler: cancelHandler))
-        self.present(alert, animated: true, completion: nil)
+    func setupRightButton(image: UIImage, color: UIColor, action: Selector) {
+        let rightBarButtonItem = UIBarButtonItem.init(image: image, style: .done, target: self, action: action)
+        rightBarButtonItem.tintColor = color
+        self.navigationItem.rightBarButtonItem = rightBarButtonItem
     }
 }

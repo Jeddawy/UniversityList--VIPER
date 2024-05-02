@@ -57,5 +57,9 @@ protocol UniversityListViewProtocol: AnyObject {
 // MARK: - Router
 
 protocol UniversityListWireframeProtocol: AnyObject {
-    func navigateToUniversityDetails(model: UniversityResponse)
+    func navigateToUniversityDetails(model: UniversityResponse,delegate: RefreshUniversityListDelegate?)
+}
+
+protocol RefreshUniversityListDelegate: AnyObject{
+    func refershList()
 }

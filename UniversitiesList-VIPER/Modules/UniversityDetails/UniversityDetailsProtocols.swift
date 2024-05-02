@@ -15,6 +15,7 @@ protocol UniversityDetailsPresenterProtocol {
 
     /* ViewController -> Presenter */
     func load()
+    func didTapRefresh()
 }
 
 protocol UniversityDetailsInteractorInputProtocol: AnyObject {

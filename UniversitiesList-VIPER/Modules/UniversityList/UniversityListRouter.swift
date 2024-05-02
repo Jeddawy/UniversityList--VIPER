@@ -33,8 +33,8 @@ class UniversityListRouter{
 
 extension UniversityListRouter: UniversityListWireframeProtocol{
     
-    func navigateToUniversityDetails(model: UniversityResponse) {
-        let module = UniversityDetailsRouter.createModule(model: model)
+    func navigateToUniversityDetails(model: UniversityResponse, delegate: RefreshUniversityListDelegate?) {
+        let module = UniversityDetailsRouter.createModule(model: model, delegate: delegate)
         self.viewController?.navigationController?.pushViewController(module, animated: true)
     }
     

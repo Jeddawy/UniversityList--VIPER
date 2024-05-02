@@ -15,18 +15,24 @@ class UniversityDetailsViewController: UIViewController {
     
     @IBOutlet weak var universityCountryCodeLabel: UILabel!
     @IBOutlet weak var webPageLabel: UILabel!
-    
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter?.load()
+        setupRightButton(image: UIImage(named: "refresh")!, color: .black, action: #selector(refreshNavActionBtn))
+
         // Do any additional setup after loading the view.
     }
+    
     // MARK: - Custom Setter
     public func setPresenter(presenter: UniversityDetailsPresenterProtocol) {
         self.presenter = presenter
     }
-
+    
+    //MARK: Selector
+    @objc func refreshNavActionBtn(){
+        self.presenter?.didTapRefresh()
+    }
 }
 
 extension UniversityDetailsViewController: UniversityDetailsViewProtocol{

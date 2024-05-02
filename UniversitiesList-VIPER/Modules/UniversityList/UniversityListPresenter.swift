@@ -27,7 +27,7 @@ extension UniversityListPresenter: UniversityListPresenterProtocol{
 
     func didTapCell(at index: Int) {
         if let item = self.getUniversity(at: index){
-            router?.navigateToUniversityDetails(model: item)
+            router?.navigateToUniversityDetails(model: item, delegate: self)
         }
     }
     
@@ -70,5 +70,10 @@ extension UniversityListPresenter: UniversityListInteractorOutputProtocol{
         }
     }
     
-    
+}
+
+extension UniversityListPresenter: RefreshUniversityListDelegate{
+    func refershList() {
+        self.getUniversities()
+    }
 }
